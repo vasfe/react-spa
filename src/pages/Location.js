@@ -1,6 +1,6 @@
 import React from 'react';
 import { Page, Header, Paragraph, Line } from "./PageComponents"
-import Map from "../components/Map"
+import PublicMap from "../components/PublicMap"
 
 const Location = () => (
         <Page>
@@ -10,7 +10,7 @@ const Location = () => (
                 </Paragraph>
                 <Line />
                 <Header>Where to find us</Header>
-                <Map />
+                <PublicMap />
                 <p>House in the River<br />Inside the River,<br />Scotland,<br />LN1 1PS</p>
                 <Line />
         </Page>
